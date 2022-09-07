@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: typedata.numbers.systems.TestNumberSystem
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec <<< FAILURE!
+typedata.numbers.systems.TestNumberSystem.testDecimalToBinary()  Time elapsed: 0.035 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1111> but was: <1110>
+	at org.junit.gen5.api.Assertions.fail(Assertions.java:48)
+	at org.junit.gen5.api.Assertions.failNotEqual(Assertions.java:420)
+	at org.junit.gen5.api.Assertions.assertEquals(Assertions.java:235)
+	at org.junit.gen5.api.Assertions.assertEquals(Assertions.java:218)
+	at typedata.numbers.systems.TestNumberSystem.testDecimalToBinary(TestNumberSystem.java:12)
+
