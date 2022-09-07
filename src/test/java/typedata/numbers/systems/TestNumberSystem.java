@@ -7,7 +7,7 @@ import static base.typedata.numbers.systems.NumberSystem.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestNumberSystem {
-
+//
     @ParameterizedTest
     @CsvSource({"15,1111", "0,0", "100,1100100", "10,1010"})
     public void testDecimalToBinary(int n, int actual) {
