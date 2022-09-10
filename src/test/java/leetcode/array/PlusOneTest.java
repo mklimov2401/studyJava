@@ -1,10 +1,10 @@
 package leetcode.array;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static leetcode.array.PlusOne.*;
-import static org.junit.jupiter.api.Assertions.*;
+import static leetcode.array.PlusOne.plusOne;
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class PlusOneTest {
     @Test
